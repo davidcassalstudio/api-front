@@ -2,6 +2,65 @@
   text-align: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  margin: 32px auto;
+  width: 60%;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px #cecece;
+  background: #f9f9f9;
+  box-shadow: 0 3px 0 rgba(0,0,0,.2);
+}
+
+.card ul {
+  padding-left: 0;
+}
+
+.card li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-create {
+  width: 60%;
+  margin: 32px auto 0;
+  border-top: 1px solid #cecece;
+}
+
+.contact-create form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+
+.contact-create form input {
+  height: 40px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding-left: 16px;
+}
+
+.contact-create form input:focus {
+  box-shadow: 0 3px 0 rgba(0,0,0,.2);
+  appearance: none;
+}
+
+.contact-create form button {
+  appearance: none;
+  background: #12284B;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
