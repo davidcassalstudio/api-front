@@ -6,7 +6,7 @@ function App() {
   const [ users, setUsers ] = useState([]);
 
   useLayoutEffect(() => {
-    fetch('http://localhost:5000/users')
+    fetch('https://aggressive-gray-fatigues.cyclic.app/users')
       .then(resp => resp.json())
       .then(data => {
         setUsers(data)

@@ -20,7 +20,7 @@ function Contato() {
         window.location.reload();
         Array.from(document.querySelectorAll('.input-form')).map(input => input.value = '');
 
-        fetch('http://localhost:5000/users', {
+        fetch('https://aggressive-gray-fatigues.cyclic.app/users', {
             method: 'POST',
             headers:  {
                 "Accept": "application/json",
